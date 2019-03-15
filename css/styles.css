@@ -1,0 +1,73 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.mainPhoto{
+  width: 940px;
+  height:400px;
+  object-fit: cover;
+}
+.customerReviewsPhoto{
+  width: 450px;
+  height:200px;
+  object-fit: cover;
+}
+.container {
+  margin: auto;
+  padding: 10px;
+}
+.intro-section {
+  text-align: center;
+  background: #CFD8DC;
+}
+.reservations-section {
+  text-align: center;
+  background: #DCEDC8;
+}
+.comeDineWithUs-section {
+  text-align: center;
+  background: #CFD8DC;
+}
+.customerReviews-section {
+  text-align: center;
+  background: #DCEDC8;
+}
+
+.one {
+  width: 50%;
+  float: left;
+  padding: 5px;
+  background: #C5E1A5;
+  height: 200px;
+}
+.two {
+  padding: 5px;
+  background: #C5E1A5;
+  height: 200px;
+  font-size: 15pt;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  width: 400px;
+}
